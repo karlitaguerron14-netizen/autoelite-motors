@@ -1,13 +1,19 @@
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-
-body {
-  background-color: #f2f4f7; 
+body{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ background: var(#FFFFFF);
+ color: #333B3B;
+ line-height: 1.6;
+ font-size: 14px;
+}
+img{
+ display: block;
+ max-width: 100%;
 }
 
 a {
