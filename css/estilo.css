@@ -1,0 +1,234 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f2f4f7; 
+}
+
+a {
+  text-decoration: none; 
+  color: inherit;
+}
+
+ul {
+  list-style: none; 
+}
+
+img {
+  width: 100%; 
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.seccion {
+  padding: 50px 0;
+}
+
+
+
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.boton-principal {
+  background-color: #540f39; 
+  color: #ffffff;
+}
+
+.boton-claro {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.boton-secundario {
+  background-color: #540f39; 
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.etiqueta {
+  color: #540f39; 
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+
+
+.encabezado {
+  background-color: #ffffff;
+  padding: 15px 0;
+}
+
+.encabezado-contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.marca img {
+  width: 40px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+
+
+.hero {
+  background-color: #680f396a;
+  color: #ffffff;
+  padding: 50px 0;
+}
+
+.hero-contenido {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-texto, .hero-imagen {
+  width: 50%;
+}
+
+.hero-imagen img {
+  border-radius: 10px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.hero-acciones {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+
+
+.seccion-encabezado {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.vehiculos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.vehiculo-card {
+  background-color: #ffffff;
+  width: 31%; /* Entran 3 tarjetas por fila */
+  border-radius: 8px;
+  padding: 15px;
+  border: 1px solid #dddddd;
+}
+
+.vehiculo-precio {
+  color: #680f396a;
+  font-weight: bold;
+}
+
+.vehiculo-detalles {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.vehiculo-detalles li {
+  background-color: #eeeeee;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+}
+
+
+
+
+.nosotros-grid, .contacto-grid {
+  display: flex;
+  gap: 30px;
+}
+
+.nosotros-texto, .contacto-texto {
+  width: 50%;
+}
+
+.beneficios-grid {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.beneficio {
+  background-color: #ffffff;
+  width: 48%; 
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.formulario {
+  width: 50%;
+  background-color: #e5e7eb;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.formulario-fila {
+  display: flex;
+  gap: 10px;
+}
+
+.formulario-fila .campo {
+  width: 50%;
+}
+
+.campo {
+  margin-bottom: 10px;
+}
+
+.campo label {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.campo input, .campo select, .campo textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+
+
+.pie-pagina {
+  background-color: #680f396a;
+  color: #ffffff;
+  padding: 30px 0;
+}
+
+.pie-grid {
+  display: flex;
+  justify-content: space-between;
+}
